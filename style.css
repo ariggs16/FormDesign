@@ -1,32 +1,47 @@
 html {
 	box-sizing:border-box;
 }
-*, *:before, *after {
+*, *:before, *:after {
 	box-sizing:inherit;
 }
-html {
+body {
 	background-color: rgb(91, 163, 214);
 }
 
 form {
 	display:flex;
 }
+
+div {
+	margin:10px 25px;
+}
 label {
 	display:block;
 	color:white;
 	text-transform:uppercase;
 	margin:30px 0px 5px;
+	font-style:arial, helvetica, sans-serif;
+	font-size:18px;
 }
-div > label {
-	color:white;
-}
+
 input {
 	padding:10px;
+	font-size:20px;
 }
-textarea {
-	height:100px;
-}
+
 input, textarea, select {
 	background:transparent;
+	color:white;
 	width:300px;
+	border:2px solid white;
+}
+
+input:focus, textarea:focus {
+	outline:0;
+	border:2px solid rgb(41,104,149);
+}
+
+::-webkit-input-placeholder {
+	color: rgb(41,104,149);
+	font-style:italic;
 }

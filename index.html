@@ -3,6 +3,7 @@
  <head>
   <meta charset="UTF-8">
     <title>Form Design</title>
+    <link rel="stylesheet" href="normalize.css" />
 	<link rel="stylesheet" href="style.css" />
  </head>
  <body>
@@ -17,16 +18,19 @@
 	 		<input type="text" id="email" placeholder="john@doe.com" /><br >
 	 		<label for="country">COUNTRY</label><br>
 	 		<select id="country"><option value="none">Select a Country</option>
-	 		<option value="USA">USA</option><option value="France">France</option></select><br />
-	 		<label for="bio">BIOGRAPHY</label><br><textarea rows="10" cols="50" ></textarea><br >
+	 		<option value="USA">USA</option>
+	 		<option value="France">France</option></select><br />
+	 		<label for="bio">BIOGRAPHY</label><br>
+	 		<textarea rows="10" cols="50" ></textarea><br >
 	 	</div>
 	 	<div>
 	 		<label for="tel">PHONE NUMBER</label><br>
 	 		<input type="number" id="phone number" placeholder="+212 679 1234" /><br />
 	 		<label for="aff">AFFILITIONS</label><br>
 	 		<textarea rows="10" cols="50" ></textarea><br />
-	 		<label type="occupation">OCCUPATION</label><br>
-	 		<select id="occupation"><option value="none">Choose an Occupation</option></select><br><input type="text" id="occupation" /><br />
+	 		<label for="occupation">OCCUPATION</label><br>
+	 		<select id="occupation"><option value="none">Choose an Occupation</option>
+	 		<option value="Web Develpoer">Coding</option><option value="Teacher">Fake Smiling</option></select><br>
 	 		<label for="catsname">CAT'S NAME</label><br>
 	 		<input type="text" id="cats name" placeholder="Kitty" /><br />
 	 		<label for="gadget">FAVORITE GADGET</label><br>
